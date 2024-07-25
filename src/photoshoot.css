@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+
+.webcam-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.webcam {
+    /* transform: scaleX(-1); */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-in{
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.video-loading {
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
